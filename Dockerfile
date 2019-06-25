@@ -29,7 +29,7 @@ RUN apk add --update --no-cache \
   patch \
   make \
   zip \
-  unzip \
+  unzip; \
   \
 # Install composer
   wget -qO- https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer; \
